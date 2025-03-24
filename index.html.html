@@ -1,0 +1,175 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My Portfolio</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
+
+    <style>
+        .bg {
+          position: absolute;
+          top: 0%;
+          left: 0%;
+          width: 100%;
+          height: 100%;
+          background-image: url("bg-1.jpg");
+          background-size: cover;
+          filter: blur(3px);
+        }
+        #a h1,
+        #a p,
+        #a button,
+        nav {
+          position: relative;
+          z-index: 2;
+        }
+      </style>
+
+</head>
+<body>
+    <nav class="navbar navbar-expand-sm bg-dark navbar-dark p-4 fixed-top">
+        <div>
+            <a href="" class="navbar-brand">My Portfolio</a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-targe="#collapse">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+        </div>
+
+        <div class="collapse navbar-collapse" id="collapse">
+            <ul class="navbar-nav ms-auto">
+                <li class="nav-item">
+                    <a href="#a" class="nav-link">Home</a>
+                </li>
+                <li class="nav-item">
+                    <a href="#b" class="nav-link">About</a>
+                </li>
+                <li class="nav-item">
+                    <a href="#c" class="nav-link">Skills</a>
+                </li>
+                <li class="nav-item">
+                    <a href="#d" class="nav-link">Project</a>
+                </li>
+                <li class="nav-item">
+                    <a href="#e" class="nav-link">Contact</a>
+                </li>
+            </ul>
+        </div>
+    </nav>
+
+    <!-- Home -->
+     <div id="a" class="container-fluid d-flex flex-column align-items-center text-center" 
+     style="padding: 140px 20px; position: relative;">
+        <div class="bg"></div>
+        <h1 class="text-white">Hey, I am Sk Md Aziz</h1>
+        <p class="text-white">From Hooghly-Chinsurah</p>
+        <button class="btn btn-success">Know More</button>
+     </div>
+
+     <!-- About -->
+     <div id="b" class="container-fluid mt-3 pt-5" style="background-color: rgb(126, 196, 135);">
+        <div class="row">
+            <div class="col-sm-7">
+                <h3 class="text-center" style="font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif">About Myself</h3>
+                <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Corrupti sed, itaque fugit possimus inventore temporibus. Sit distinctio tempore repellendus dicta atque rem molestias delectus error, eveniet voluptatem reprehenderit nulla itaque?Lorem ipsum, dolor sit amet consectetur adipisicing elit. Quos repellendus amet aliquam consequatur architecto, praesentium, temporibus veniam voluptatum, voluptate consequuntur ea assumenda quaerat atque hic ex repellat dolorum asperiores molestias.</p>
+            </div>
+            <div class="col-sm-5 text-center pb-5">
+                <img src="p.jpg">
+            </div>
+        </div>
+     </div>
+
+    <!-- Skills -->
+    <div id="c" style="background-color: rgb(79, 141, 148);" class="p-4 mt-3">
+        <h2 class="text-center pb-5" style="font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif">Skills</h2>
+
+        <div class="row">
+            <div class="col-sm-2 d-flex justify-content-center">
+                <span class="badge rounded-circle bg-primary text-dark">HTML</span>
+            </div>
+            <div class="col-sm-2 d-flex justify-content-center">
+                <span class="badge rounded-circle bg-warning text-dark">CSS</span>
+            </div>
+            <div class="col-sm-2 d-flex justify-content-center">
+                <span class="badge rounded-circle bg-danger text-dark">JAVASCRIPT</span>
+            </div>
+            <div class="col-sm-2 d-flex justify-content-center">
+                <span class="badge rounded-circle bg-info text-dark">BOOTSTRAP</span>
+            </div>
+            <div class="col-sm-2 d-flex justify-content-center">
+                <span class="badge rounded-circle bg-success text-dark">REACT</span>
+            </div>
+            <div class="col-sm-2 d-flex justify-content-center">
+                <span class="badge rounded-circle bg-warning text-dark">PHP</span>
+            </div>
+        </div>
+    </div>    
+    
+    <!-- Project -->
+     <div id="d" class="container-fluid mt-3" style="background-color: rgb(100, 134, 123); padding: 100px 20px; ">
+        <h1 class="text-center pb-5" style=" font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;">Projects</h1>
+        <div class="row">
+            <div class="col-sm-3 d-flex flex-column align-items-center">
+                <img src="crud image.jpg" alt="">
+                <button class="btn btn-info mt-2">Know More</button>
+            </div>
+            <div class="col-sm-3 d-flex flex-column align-items-center">
+                <img src="Registration.png" alt="">
+                <button class="btn btn-info mt-2">Know More</button>
+            </div>
+            <div class="col-sm-3 d-flex flex-column align-items-center">
+                <img src="clock project.jpg" alt="">
+                <button class="btn btn-info mt-2">Know More</button>
+            </div>
+            <div class="col-sm-3 d-flex flex-column align-items-center">
+                <img src="Age calculator.png" alt="">
+                <button class="btn btn-info mt-2">Know More</button>
+            </div>
+            <div class="col-sm-3 d-flex flex-column align-items-center">
+                <img src="Light bulb.jpeg" alt="">
+                <button class="btn btn-info mt-2">Know More</button>
+            </div>
+            <div class="col-sm-3 d-flex flex-column align-items-center">
+                <img src="Location.jpeg" alt="">
+                <button class="btn btn-info mt-2">Know More</button>
+            </div>
+        </div>
+     </div>
+
+     <!-- contact -->
+      <div id="e" class="container-fluid mt-3" style="padding: 100px 20px; background-color: rgb(123, 184, 184);">
+        <h1 class="text-center" style="font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;">Contact Me</h1>
+
+        <form>
+            <div class="mb-3">
+                <label for="email" class="form-label" style="font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;">Email</label>
+                <input type="email" class="form-control" id="email" placeholder="Enter Your Email">
+            </div>
+        </form>
+        <form>
+            <div class="mb-3">
+                <label for="add" class="form-label" style="font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;">Address</label>
+                <iput type="email" class="form-control" id="email" placeholder="Enter Your Email">
+                <textarea type="password" class="form-control" id="add" rows="5" name="text"></textarea>
+            </div>
+        </form>
+        <button type="submit" class="btn btn-warning">Submit</button>
+      </div>
+
+      <!-- footer -->
+       <footer class="text-center text-white py-4">
+        <div class="bg-dark">
+            <p>&copy: 2025 My Portfolio. All right reserve</p>
+            <p>
+                Follow us on : 
+                <a href=""> <img src="facebook.png" width="20" height="20"></a>
+                <a href=""> <img src="linkedin.png" width="20" height="20"></a>
+                <a href=""> <img src="twiter.png" width="20" height="20"></a>
+            </p>
+        </div>
+       </footer>
+
+
+</body>
+</html>
